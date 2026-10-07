@@ -1,6 +1,9 @@
 #include<stdio.h>
 int main(){
-    float a=7.16;
-    scanf("%f",&a);
-    printf("%f",a);
-}
+    int n;scanf("%d",&n);
+    int i=0;
+    while(i<n){
+        printf("%d\n",i+1);
+        i++;}
+    }
+        

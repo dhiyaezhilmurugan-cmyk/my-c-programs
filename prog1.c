@@ -1,10 +1,9 @@
 #include<stdio.h>
-int main()
-{
-    printf("Hello world");
-}//directory change
-//cd Desktop
-//~Desktop cd dhiya.E
-//~Desktop/dhiya.E
-//gcc prog1.c
-./a.out
+int main(){
+    int n;scanf("%d",&n);
+    int i=0;
+    while(i<n){
+         printf("%d",i+1);
+         i++;
+    }
+}         
