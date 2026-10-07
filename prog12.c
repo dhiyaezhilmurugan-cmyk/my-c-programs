@@ -1,0 +1,4 @@
+#include<stdio.h>
+int main(){
+    printf("%d", (7>6)&&(6<0));//1&&0
+}    
